@@ -20,7 +20,7 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'wordpress');
+define('DB_NAME', 'part3');
 
 /** MySQL database username */
 define('DB_USER', 'root');
@@ -46,14 +46,14 @@ define('DB_COLLATE', '');
  *
  * @since 2.6.0
  */
- define('AUTH_KEY',         '4y~X_BTXK##4U,psoQsSX-` TPUm9o(POuBpSk+y8HnJlONcFYU!ACQ(LWaVkd-5');
- define('SECURE_AUTH_KEY',  'b:z;H-gf&->aCJhx|)o!.1Xdne;|FC]&E54WC51vqcq8m&;|.<<Yi|oS2Uy D;;C');
- define('LOGGED_IN_KEY',    'VHf)%Ax:e<+*E38/W ~/H1bGWXDp~[z9c+?v4Fc-7*{jY+{i|^WBXO!5EQhCyNyi');
- define('NONCE_KEY',        'LFWxl]5z@$+XTTuG9?B},#a$*T(!WK8R)7E0y3BauAeG9roB k UpXB/nbuayrj4');
- define('AUTH_SALT',        '<X6Apt-1_yS.$cyY>YjKg{Ui<Oe8=k~5-LXWrADi/DpdEk<1t<wp<IP0D~Xh0h@V');
- define('SECURE_AUTH_SALT', 'K$,>kS$Ds*_:@WAM1[oX4C7:YX`4{+;*vVt8Vj]e)-swi<+)HjgQ!1GQ;id5u2Gt');
- define('LOGGED_IN_SALT',   'PVxMl~i1jEpe~w`AuIV05MD5,&L{Y-~AqsfA(*%&&s`z,UXl?e6a,&vhrHRAz3M2');
- define('NONCE_SALT',       '&~|eb{vhgz5BSH2@b-J{X2x#7Z8nM7JD>$M% |Y4V,S~VR&:=YkBKH7r03x:H5{G');
+ define('AUTH_KEY',         'R~!4u#PG+$v5~}DdD_l{%gcyx*9kJL=B{&oXtU)@]Nn-&fJwwjZK<?hL4U7=R^k*');
+ define('SECURE_AUTH_KEY',  'b4MIm4fN+:6+p*)t{Z2#ZNp+P$fJaJv-S|s%F3cI}M#]?ug/5-SmT!OyZ;W${cVW');
+ define('LOGGED_IN_KEY',    '+Mm[KsXt-[(k(D-*Y+fPm;etlYGuxZ0MfG+BvY;Pg{:k?+amR@/8]}st?WehVqOG');
+ define('NONCE_KEY',        'J~tH665j@uikfiRVwOYc;[?H;.ArGpZh9$35G^%<76x)Y`d#N*=|s=7-zb>2V6`+');
+ define('AUTH_SALT',        '-`3|36>//hnc28A!j2hc;NrmO8xj!}USb_#2+T3:7/DMOwJ!qWMo4i{}Gr[YRuN+');
+ define('SECURE_AUTH_SALT', '11Hw=79yj4/FZK&*8EaN^r 3Nm31y.knK=ET8VM|g<jEsonsd0}lCsk1EEskA@! ');
+ define('LOGGED_IN_SALT',   '+ ;6`[)5zTml):MZslPYnyj*dQ+v(ki[Xs{L/xE9)/UD|jE6q{y7X(A-^p~$e6C-');
+ define('NONCE_SALT',       'L*7+n82RtX1CcSF5@$V-0j=BeT+Y+WQp`Qe+RZp5(>YHQ.Wuz[*P2Q`-D5;E@4;a');
 
 /**#@-*/
 
@@ -63,7 +63,7 @@ define('DB_COLLATE', '');
  * You can have multiple installations in one database if you give each
  * a unique prefix. Only numbers, letters, and underscores please!
  */
-$table_prefix  = 'fwp1_';
+$table_prefix  = 'par3_';
 
 /**
  * For developers: WordPress debugging mode.
